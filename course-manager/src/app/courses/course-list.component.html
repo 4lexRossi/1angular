@@ -33,7 +33,8 @@
                 <app-star [rating]="course.rating"></app-star>
             </td>
             <td>
-                <a class="btn btn-primary">Edit</a>
+                <a [linkUrl=[C:\meus-projetos\1angular\course-manager\src\app\courses\course-info.component.html] class="btn btn-primary mr-2">Edit</a>
+                <button (click)="deleteById(course.id)" class="btn btn-danger">Delete</button>
             </td>
         </tr>
     </body>
